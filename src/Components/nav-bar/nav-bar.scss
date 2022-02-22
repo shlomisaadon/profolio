@@ -1,0 +1,56 @@
+/** @format */
+.navBar {
+  height: 80px;
+  // animation: backgroundNav 10s ease-in-out;
+  // background-color: rgb(46, 46, 133);
+
+  @keyframes backgroundNav {
+    0% {
+      background-color: rgb(19, 19, 177);
+      transform: translateY(-80px);
+    }
+    20% {
+      background-color: rgb(4, 4, 131);
+      transform: translateY(0px);
+    }
+    40% {
+      background-color: rgb(113, 50, 214);
+    }
+    60% {
+      background-color: rgb(86, 20, 148);
+    }
+    80% {
+      background-color: rgb(72, 72, 202);
+    }
+    100% {
+      background-color: rgb(46, 46, 133);
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: -20px;
+    li {
+      @media (max-width: 600px) {
+        font-size: 18px;
+      }
+      animation: ulNav 2s;
+      z-index: 11;
+      cursor: pointer;
+      margin: 30px;
+      color: white;
+      font-weight: 700;
+      font-size: 26px;
+      font-family: sans-serif;
+    }
+
+    @keyframes ulNav {
+      from {
+        font-size: 8px;
+      }
+      to {
+        font-size: 18xp;
+      }
+    }
+  }
+}
