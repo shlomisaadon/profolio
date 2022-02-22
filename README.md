@@ -6,8 +6,8 @@
 
 ## Email
 
-### shlomisaadon@gmail.com
+> shlomisaadon@gmail.com
 
 ## Phone
 
-### +9720556831997
+> +9720556831997
