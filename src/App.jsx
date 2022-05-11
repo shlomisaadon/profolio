@@ -2,6 +2,7 @@
 
 import React, {Component} from "react";
 // import {Route, Switch} from "react-router-dom";
+import Footer from "./Components/footer/footer";
 
 import "./App.scss";
 // import Navbar from "./Components/nav-bar/nav-bar";
@@ -16,7 +17,9 @@ class App extends Component {
         <main className="container-fluid flex-fill p-0 m-0">
           <Main />
         </main>
-        <footer></footer>
+        <footer>
+          <Footer></Footer>
+        </footer>
       </div>
     );
   }

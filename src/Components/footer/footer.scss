@@ -1,0 +1,56 @@
+/** @format */
+
+.Separator {
+  width: 100%;
+  border-radius: 100%;
+  @keyframes a {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 5px;
+    }
+  }
+  .a {
+    width: 100%;
+    height: 5px;
+    background-color: #2e42f7;
+    animation: a 3s;
+  }
+  .b {
+    width: 100%;
+    height: 5px;
+    background-color: #441bfd;
+    animation: a 3s;
+  }
+  .c {
+    width: 100%;
+    height: 5px;
+    background-color: #5834fc;
+    animation: a 3s;
+  }
+  .d {
+    width: 100%;
+    height: 5px;
+    background-color: #7252ff;
+    animation: a 3s;
+  }
+  .e {
+    width: 100%;
+    height: 5px;
+    background-color: #8c73ff;
+    animation: a 3s;
+  }
+  .f {
+    width: 100%;
+    height: 5px;
+    background-color: #ad9cfc;
+    animation: a 3s;
+  }
+  .g {
+    width: 100%;
+    height: 5px;
+    background-color: #c9bdff;
+    animation: a 3s;
+  }
+}
