@@ -13,7 +13,7 @@ const Main = () => {
         <div className="boxMain">
           <b>Shlomi Saadon</b>
           <p>Web Developer</p>
-          <img src={Me} alt="born" />
+          <img width={200} src={Me} alt="born" />
         </div>
       </div>
       {/* avatar section */}
