@@ -5,7 +5,9 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <>
-      <span>&copy; Shlomi Saadon 11.05.2022</span>
+      <div className="container-fluid text-center text-blue">
+        <span>&copy; Shlomi Saadon 11.05.2022</span>
+      </div>
       <div className="Separator">
         <div className="a"></div>
         <div className="b"></div>
